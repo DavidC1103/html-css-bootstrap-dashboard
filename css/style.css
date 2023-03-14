@@ -3,7 +3,9 @@ body{
 }
 
 header{
-    height: 80px;
+    height: 70px;
+    position: fixed;
+    background-color: white;
 }
 
 .form-control:focus{
@@ -22,4 +24,11 @@ header{
 
 .dc-dd-menu{
     left: -160px !important;
+}
+
+
+.left-menu{
+    background-color: blue;
+    width: 100px;
+    height: 100vh;
 }
