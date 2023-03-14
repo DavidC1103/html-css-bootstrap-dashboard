@@ -1,0 +1,16 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 80px;
+}
+
+
+.dc-form-bg{
+    background-color: #E5E5E5;
+}
+
+.dc-form-color{
+    color: #D2D2D2;
+}
