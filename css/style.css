@@ -6,6 +6,11 @@ header{
     height: 80px;
 }
 
+.form-control:focus{
+    border-color: black;
+    box-shadow: none;
+}
+
 
 .dc-form-bg{
     background-color: #E5E5E5;
@@ -13,4 +18,8 @@ header{
 
 .dc-form-color{
     color: #D2D2D2;
+}
+
+.dc-dd-menu{
+    left: -160px !important;
 }
