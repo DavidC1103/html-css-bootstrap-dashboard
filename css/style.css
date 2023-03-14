@@ -1,17 +1,28 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("img/sidebar-bg.png");
 }
 
 header{
     height: 70px;
-    position: fixed;
     background-color: white;
+    position: sticky;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-mobile{
+    width: 50px;
+    height: 50px;
+}
 .form-control:focus{
     border-color: black;
     box-shadow: none;
 }
+
 
 
 .dc-form-bg{
@@ -28,7 +39,27 @@ header{
 
 
 .left-menu{
-    background-color: blue;
-    width: 100px;
+    background-color: #051E34;
+    width: 140px;
     height: 100vh;
+    position: fixed;
 }
+
+
+
+.left-menu .bg-left:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+}   
+
+.bot-menu{
+margin-bottom: 110px;
+}
+
+@media screen  and (max-width: 992px){
+
+    .left-menu{
+        width: 80px;
+    }
+ }
+
+    

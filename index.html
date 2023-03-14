@@ -21,17 +21,18 @@
         <div class="container-fluid">
             <nav class="py-2 navbar-expand-lg">
                 <div class="container-fluid">
-                    <div class="row align-items-center ">
-                        <div class="col-1">
+                    <div class="row align-items-center p-0">
+
+                        <div class="col-auto">
                             <div>
                                 <a href="#">
                                     <img class="d-none d-lg-block" src="img/logo.svg" alt="">
-                                    <img class="d-lg-none img-fluid" src="img/mobile-logo.png" alt="">
+                                    <img class="d-lg-none img-mobile" src="img/mobile-logo.png" alt="">
                                 </a>
                             </div>
                         </div>
                     
-                        <div class="col-10">
+                        <div class="col">
                             <form >
                                 <div class="input-group">
                                     <span class="input-group-text dc-form-bg" id="basic-addon1"><i class="fa-solid     fa-magnifying-glass"></i></span>
@@ -39,15 +40,15 @@
                                 </div>
                             </form>
                         </div>  
-                        <div class="col-1">        
-                            <ul class="navbar-nav me-auto my-2 my-lg-0">
-                                <li class="nav-item d-none d-lg-block pe-4">
+                        <div class="col-auto">        
+                            <ul class="navbar-nav my-lg-0">
+                                <li class="nav-item d-none d-lg-block pe-3">
                                     <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-list"></i></a>
                                 </li>
-                                <li class="nav-item d-none d-lg-block pe-4">
+                                <li class="nav-item d-none d-lg-block pe-3">
                                     <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
                                 </li>
-                                <li class="nav-item d-none d-lg-block pe-4">
+                                <li class="nav-item d-none d-lg-block pe-3">
                                     <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -67,7 +68,49 @@
         </div>
     </header>
 
-    <div class="left-menu">
+    <div class="left-menu d-flex flex-column justify-content-between text-white align-items-center">
+            <div class="top-menu mt-4">
+
+                <div class="p-2 bg-left">
+                    <div class=" d-none d-lg-block">
+                        <a href="#"><i class="fa-solid fa-house me-3"></i>Home</a>
+                    </div>
+                    <div>
+                        <a href="#"><i class="fa-solid fa-house d-lg-none me-3"></i></a>
+                    </div>
+                </div>
+            
+                <div class="p-2 bg-left">
+                    <div class=" d-none d-lg-block">
+                        <a href="#"><i class="fa-solid fa-chart-simple me-3"></i> Stats</a>
+                    </div>
+                    <div>
+                        <a href="#"></a><i class="fa-solid fa-chart-simple d-lg-none me-3"></i></a>
+                    </div>
+                </div>
+
+                <div class="p-2 bg-left">
+                    <div class=" d-none d-lg-block">
+                        <a href="#"><i class="fa-solid fa-signal me-3"></i>Signals</a>
+                    </div>
+                    <div>
+                        <a href="#"></a><i class="fa-solid fa-signal d-lg-none me-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bot-menu">
+                <div class="bg-left p-2">
+                    <div class=" d-none d-lg-block">
+                        <a href="#"><i class="fa-sharp fa-solid fa-gear me-3"></i>Admin</a>
+                    </div>
+                    <div class="align-items-center">
+                        <a href="#"><i class="fa-sharp fa-solid fa-gear d-lg-none me-3"></i></a>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
         
 
 
