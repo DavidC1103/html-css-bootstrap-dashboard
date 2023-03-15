@@ -20,6 +20,7 @@ main{
     margin-left: 140px;
     padding-top: 60px;
     overflow: hidden;
+    padding-bottom: 60px;
 }
 a{
     text-decoration: none;
@@ -32,8 +33,16 @@ a{
 }
 .form-select:focus{
     box-shadow: 0 0 0 .1rem green;
-    border-color: green;
-    
+    border-color: green; 
+}
+.accordion-button:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+
+.dc-text{
+    color: #797979;
 }
 
 /*HEADER*/
