@@ -45,6 +45,12 @@ a{
     color: #797979;
 }
 
+.dc-borders{
+    border:1px solid  #C2C6C9;
+    border-radius: 10px;
+    padding: 15px;
+}
+
 /*HEADER*/
 .img-mobile{
     width: 50px;
@@ -125,6 +131,14 @@ main table{
     
 }
 
+
+main td:first-child{
+    width: 100%;
+}
+
+main td{
+    width: 121px;
+}
 main th img{
     width: 30px;
 }
@@ -135,13 +149,33 @@ main td i{
     padding: 5px;
 }
 
-
-
-.dc-borders{
-    border: 1px solid #C2C6C9;
-    border-radius: 5px ;
-    padding: 10px;
+.list-group a{
+    color:#76ADFD;
+    text-decoration: underline;
 }
+.dc-td-green{
+    padding: 2px 5px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.dc-td-yellow{
+    padding: 2px 5px;
+    background-color:#FFDA6C;
+    color: white;
+    border-radius: 10px;
+}
+.dc-td-red{
+    padding: 2px 5px;
+    background-color:red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
 /*-------------------------*/
 
 
