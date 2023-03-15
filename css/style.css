@@ -3,14 +3,7 @@
 }
 
 
-.dc-container{
-    height: 500px;
-    background-color: blue;
-}
-.dc-container .col{
-    height: 50px;
-    border: 2px solid black;
-}
+
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("img/sidebar-bg.png");
@@ -83,6 +76,8 @@ margin-bottom: 110px;
 }
 /*--------------------*/
 
+/*MAIN*/
+
 /*MAIN MENU*/
 main .dc-row{
     background-color:#1B72E8; 
@@ -94,6 +89,13 @@ main .dc-span{
     font-size: 15px;
 }
 
+main .dc-span:hover{
+    background-color: rgba(255, 255, 255, 0.479);
+    cursor: pointer;
+}   
+
+
+
 /*OFFCANVAS*/
 .offcanvas.offcanvas-end{
     width: 720px !important;
@@ -103,10 +105,38 @@ main .dc-span{
     background-color: #D5DADF;
 }
 
+
+
+/*GRAPHICS*/
+
+
+
+main table{
+    font-size: 14px;
+    
+}
+
+main th img{
+    width: 30px;
+}
+
+main td i{
+    border: 1px solid #C2C6C9;
+    color: #C2C6C9;
+    padding: 5px;
+}
+
+
+
+.dc-borders{
+    border: 1px solid #C2C6C9;
+    border-radius: 5px ;
+    padding: 10px;
+}
 /*-------------------------*/
 
 
-@media screen  and (max-width: 992px){
+@media screen  and (max-width: 991px){
 
     .left-menu{
         width: 80px;
