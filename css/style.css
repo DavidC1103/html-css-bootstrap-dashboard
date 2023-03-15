@@ -33,15 +33,20 @@ a{
     color: white;
 }
 
+.form-control:focus{
+    border-color: green;
+    box-shadow: 0 0 0 .1rem green;
+}
+.form-select:focus{
+    box-shadow: 0 0 0 .1rem green;
+    border-color: green;
+    
+}
 
 /*HEADER*/
 .img-mobile{
     width: 50px;
     height: 50px;
-}
-.form-control:focus{
-    border-color: black;
-    box-shadow: none;
 }
 
 .dc-form-bg{
@@ -78,6 +83,7 @@ margin-bottom: 110px;
 }
 /*--------------------*/
 
+/*MAIN MENU*/
 main .dc-row{
     background-color:#1B72E8; 
 }
@@ -88,8 +94,16 @@ main .dc-span{
     font-size: 15px;
 }
 
+/*OFFCANVAS*/
+.offcanvas.offcanvas-end{
+    width: 720px !important;
+}
 
+.input-group-text{
+    background-color: #D5DADF;
+}
 
+/*-------------------------*/
 
 
 @media screen  and (max-width: 992px){
