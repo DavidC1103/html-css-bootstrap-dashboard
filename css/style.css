@@ -1,19 +1,40 @@
+.debug{
+    background-color: rgba(165, 42, 42, 0.219);
+}
+
+
+.dc-container{
+    height: 500px;
+    background-color: blue;
+}
+.dc-container .col{
+    height: 50px;
+    border: 2px solid black;
+}
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("img/sidebar-bg.png");
 }
 
 header{
-    height: 70px;
+    height: 60px;
     background-color: white;
-    position: sticky;
+    position: fixed;
+    z-index: 999;
 }
 
+main{
+    margin-left: 140px;
+    padding-top: 60px;
+    overflow: hidden;
+}
 a{
     text-decoration: none;
     color: white;
 }
 
+
+/*HEADER*/
 .img-mobile{
     width: 50px;
     height: 50px;
@@ -22,8 +43,6 @@ a{
     border-color: black;
     box-shadow: none;
 }
-
-
 
 .dc-form-bg{
     background-color: #E5E5E5;
@@ -36,16 +55,19 @@ a{
 .dc-dd-menu{
     left: -160px !important;
 }
+/*---------------------------------*/
 
 
+
+/*LEFT-MENU*/
 .left-menu{
     background-color: #051E34;
+    margin-top: 60px;
     width: 140px;
     height: 100vh;
     position: fixed;
+    background-image: url(../img/sidebar-bg.png);
 }
-
-
 
 .left-menu .bg-left:hover{
     background-color: rgba(255, 255, 255, 0.479);
@@ -54,12 +76,32 @@ a{
 .bot-menu{
 margin-bottom: 110px;
 }
+/*--------------------*/
+
+main .dc-row{
+    background-color:#1B72E8; 
+}
+main .dc-span{
+    background-color: #165BBA;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 15px;
+}
+
+
+
+
 
 @media screen  and (max-width: 992px){
 
     .left-menu{
         width: 80px;
     }
+
+    main{
+        margin-left: 80px;
+    }
  }
 
+ /*------------------------------------*/
     
